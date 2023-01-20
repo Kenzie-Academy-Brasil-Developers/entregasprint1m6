@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Calculadora de custo para antecipação de pagamentos parcelados. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Tabela de Conteúdos</h2>
 
-## Available Scripts
+- [Calculadora de custo para antecipação de pagamentos parcelados.](#calculadora-de-custo-para-antecipação-de-pagamentos-parcelados)
+  - [1. Sobre](#1-sobre)
+  - [2. O Problema A Ser Solucionado](#2-o-problema-a-ser-solucionado)
+  - [3. A Solução](#3-a-solução)
+  - [4. Tecnologias](#4-tecnologias)
+  - [5. Features](#5-features)
 
-In the project directory, you can run:
 
-### `yarn start`
+<a name="sobre"></a>
+## 1. Sobre
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto foi proposto com objetivo de treinar o uso do React e a interação com uma API.   
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a name="problema"></a>
+## 2. O Problema A Ser Solucionado
 
-### `yarn test`
+A dificuldade de calcular quanto diminuirá o repasse por parte do banco caso o comerciante deseje adiantar o pagamento.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a name="solucao"></a>
+## 3. A Solução
 
-### `yarn build`
+Para facilitar esse cálculo a aplicação tem como objetivo calcular o custo para adiantamento de pagamentos parcelados da parte dos bancos para os comerciantes de forma fácil.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a name="techs"></a>
+## 4. Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- <a name="axios">Axios</a>
+- <a name="styled-comp">Styled Components</a>
+- <a name="react-hook-form">React Hook Form</a>
+- <a name="yup">Yup</a>
+- <a name="hookform-resolvers">@Hookform/Resolvers</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a name="features"></a>
+## 5. Features
 
-### `yarn eject`
+ <h4 align="center">Layout</h4>
+ <div align="center">
+   <img src=https://imgur.com/a/DMAVdMR></img>
+ </div>
+ <p align="center">
+Aqui você colocará os dados para a realização do calculo.
+ </p>
+ 
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  <h4 align="center">Resultado</h4>
+ <div align="center">
+   <img src=https://imgur.com/a/Uvzjw3M></img>
+   <img src=https://imgur.com/a/Lj4uMF8></img>
+ </div>
+ <p align="center">
+Assim ficará a resposta da aplicação. Caso o usuário não passe um período ele voltára com o padrao: 1, 15, 30, 90 dias, mas o usuário pode colocar o período que preferir.
+ </p>
+ 
+ 
+ 
+ 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
