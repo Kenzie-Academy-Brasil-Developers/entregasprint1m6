@@ -5,7 +5,7 @@ import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { Container } from "./style";
 
-export const LeftDiv = () => {
+export const Main = () => {
     
     const [data, setData] = useState(["0,00", "0,00", "0,00", "0,00"])
 
